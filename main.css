@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif, Arial;
+}
+.top-container{
+    background-color: rgb(215, 237, 245);
+    position: relative;
+    padding-top: 100px;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 300%;
+    color: rgb(126, 126, 223);
+    font-weight: 200;
+} 
+
+h2, h3{
+    color:  rgb(126, 126, 223);
+}
+
+.mountain {
+    width: 100%; 
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right:300px;
+    top: 50px;
+}
+
+.profile{
+    padding-bottom: 40px;
+}
+.my-image{
+    position: relative;
+    top: 15px;
+    width: 20%;
+    height:20%;
+    border-radius: 50%;
+    padding:0 0 20px 0 ;
+    margin-top: 23px;
+}
+
+.intro{
+    width: 50%;
+    /* position: relative; */
+    /* left: 50%; */
+    line-height: 2.5;
+    margin: auto;
+  
+}
+
+
+.programm-pic{
+width: 35%;
+height: 50%;
+border-radius: 50%;
+margin: auto;
+
+}
+.blue-section {
+    color: rgb(4, 4, 87);
+}
+
+.white-section {
+    color: #808080;
+}
+
+/* .javascript-text{
+    margin: auto;
+    text-align: center;
+    
+    width: 50%;
+} */
+
+/* .photo-pic{
+     position: relative;
+    bottom: 10px; 
+} */
+h2 + p{
+    line-height: 4;
+
+}
+
+hr {
+
+    width: 4%;
+    border-style: none;
+    border-top-style: dotted;
+    color: grey;
+    border-width: 5px;
+    padding:20px 0 20px 0;
+
+}
+
+
+.middile {
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+
+
+.photo-pic {
+    width: 35%;
+    height: 50%;
+    border-radius: 60%;
+    margin: auto;
+
+}
+ 
+
+ .skill-row{
+     /* width:50%; */
+     margin: 100px auto 100px auto;
+     text-align: center;
+     line-height: 2;
+     background-color:  #b0e0e6;
+     padding: 2%;
+     
+ }
+
+#photo-row {
+    background-color: #ffffff;
+
+}
+
+
+
+
+ .contact-me{
+     line-height: 3;
+     background-color: #b0e0eb;
+     padding-bottom: 20%;
+     padding-top: 20%;
+     font-size: 1.2rem;
+     font-weight: 200;
+     font-style: italic;
+ }
+
+
+ .bottom-container{
+    background-color: rgb(99, 99, 211);
+    padding: 2rem;
+   
+}
+
+a{
+    color: rgb(145, 145, 216);
+    margin: 10px;
+    text-decoration: none;
+}
+.bottom-container > a:hover{
+      color:white;
+}
+
+.btn{
+    background-color: lightsteelblue;
+    padding:20px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 1rem;
+}
+
+.copy{
+    font-size: 10px;
+    color: white;
+    padding-top: 15px;
+}
+
+
+@media(max-width:1125px) {
+    .top-cloud{
+        display: none;
+    }
+
+    .bottom-cloud{
+        display: none;
+    }
+
+    .intro{
+        text-align: center;
+        left: 50%;
+    }
+
+
+
+}
+
+
+
+
+@media(max-width:798px) {
+
+}
+
+
+
+
+
